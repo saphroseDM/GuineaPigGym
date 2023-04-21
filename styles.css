@@ -1,0 +1,197 @@
+html {
+    font-size: 62.5%; /* 16px * 0.625 = 10px;*/
+    box-sizing: border-box;
+
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* fonts */
+
+body {
+    font-family: 'Schibsted Grotesk', sans-serif;
+}
+
+h1 {
+    font-family: 'DynaPuff', cursive;
+    font-size: 4rem;
+}
+
+h2 {
+    font-size: 3.2rem;
+ }
+
+h3 {
+    font-size: 2.6rem;
+}
+
+p {
+    font-size: 1.8rem;
+}
+
+figcaption {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+/* navigation bar */
+
+header {
+    position: fixed;
+    background-color:rgb(199, 80, 0);
+    z-index: 5;
+    display: inline-block;
+    height: 8rem;
+    width: 100%;
+    margin: -1rem;
+}
+
+nav {    
+    padding: 0 1.5rem;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.menu {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem 0.5rem 1rem;
+}
+
+.submenu {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.submenu li {
+    font-size: 2rem;
+}
+
+.navitem {
+    margin: 0 1.5rem;
+}
+
+.company-logo {
+    display: flex;
+    justify-content: flex-start;
+    width: 12rem;
+    margin-top: 0.6rem;
+}
+
+.contact {
+    background-color: #390a5f;
+    border-radius: 0.4rem;
+    color: white;
+    border: 0.2rem solid white;
+    margin-top: 0.5rem;
+}
+
+#navcontact {
+    justify-self: flex-end;
+    height: 5rem;
+    padding: 1.2rem;
+    font-size: 2rem
+}
+
+/* main part of webpage */
+
+main {
+    color: #000;
+    padding-top: 9rem;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+ }
+
+ .intro {
+    text-align: center;
+    max-width: 70rem;
+ }
+
+ .futureclient {
+    width: 60%;
+    height: 60%;
+ } 
+
+ .classlevels {
+    display: flex;
+    flex-direction: rows;
+    justify-content: space-around;
+    background-color:hsl(0, 0%, 95%);
+    width: 100%;
+    margin-top: 5rem;
+    padding: 3rem 0;
+ }
+
+ .level, .sidelevel {
+    text-align: center;
+    max-width: 30rem;
+ }
+
+ .sidelevel {
+    margin-top: 6.6rem;
+ } 
+
+ .trainers {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin: 5rem 0;
+ }
+
+ .trainers img {
+    width: 70%;
+ }
+
+ .sidetrainer {
+    margin-top: 92.5px;
+ }
+
+ figcaption {
+    margin-top: 1rem;
+    margin-bottom: 4rem;
+ }
+
+ footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: hsl(0, 0%, 10%);
+    color: #FFF;
+    padding: 2rem 0;
+ }
+
+ .copyright {    
+    align-self: flex-end;
+}
+
+ .copyright p {
+    font-size: 1.5rem;
+ }
+
+ .companyname {
+    align-self: center;
+ }
+
+ .companyname p {
+    font-family: 'DynaPuff', cursive;
+    font-size: 4rem;
+ }
+
+ .contactinfo {
+    line-height: 1.4;
+ }
